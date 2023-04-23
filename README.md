@@ -1,4 +1,5 @@
 
+
 # Solartable
 Project that will utilize a solar panel and some aluminum profiles as an outdoor / garden table
 ![SolarTable-1](https://user-images.githubusercontent.com/8407566/233850090-255ac83c-c0e9-4d08-bece-515f9f898cc9.jpg)
@@ -29,9 +30,9 @@ The legs will be attached using a large angle (30 by 60 mm/H206WS60) on the two 
 
 I mounted the frame itself, placed the solar panel facing upside down, mounted the small angles on the legs. Finally, I was able to mark the spots where I will drill some holes. Please use a spare wood part or anything else, as you should not hit the panel/glass surface with the drill bit.
 ![SolarTable-2](https://user-images.githubusercontent.com/8407566/233850363-1c598d4a-3f2b-4b11-a18a-b6c80714d090.jpg)
-the frame is placed on top of the solar panel, placed upside-down on a blanket.
+The frame is placed on top of the solar panel, placed upside-down on a blanket.
 
-I rotated the frame for mounting the inverter, which I mounted using two sliding blocks, washers and M6 screws on the 30x60mm aluminum profile.
+After that I rotated the frame for mounting the inverter, which was mounted using two sliding blocks, washers and M6 screws on the large 30x60mm profile.
 ![SolarTable-3](https://user-images.githubusercontent.com/8407566/233850353-11011db4-9abf-4294-8065-587846ed7408.jpg)
 
 ## Part list / BoM
@@ -45,12 +46,17 @@ I do not get any kind of bonus by mentioning a certain shop. [In case you think 
 |Solar Panel|[ASWS strong style](https://www.asws-solar.de/solarmodule/strong-style)            |150-€250*|
 |Hoymiles Microinverter|[HM 400 Specs](https://www.hoymiles.com/product/microinverter/hm-300-350-400-eu)|€120**|
 |Aluminum profiles and accessories|[myaluprofil.de](https://www.myaluprofil.de/Aluminiumprofile)|€200***|
+Cables and electronics like RCD/Circuit Breaker|[reichelt.de](https://www.reichelt.de/)|€10-150€****|
 
 \* I used this module:  <ins>ASWS Strong Style 390-MH120-N 390 Watt</ins>, at the time of purchase, I paid around **€250** including VAT (19%) in Germany. There is no need to use a bifacial module, you can definitely go for a cheaper one instead. I think this is more beautiful.
 
 \** I purchased a used module on "[eBay Kleinanzeigen](https://www.ebay-kleinanzeigen.de)" / classifieds for around **€115**
  
 \*** There might be other vendors of aluminum profiles, thus I don't want to cut them on my own. The advantage of a shop like "[myaluprofil.de](https://www.myaluprofil.de)" is that they offer accessories for the aluminum profiles as well. A detailed BoM can be found in the build-section.
+
+\**** The amount you want to spend here is depending on the functionalities your table should have.
+
+Mine is utilzing a combined circuit breaker and RCD. Shops like "[reichelt.de](https://www.reichelt.de)" should cover your needs. (In my case i also added special waterproof connectors, but i will explain that in a section about the electrical installation)
 
 ### Sources and inspiration from other projects
 
