@@ -7,7 +7,10 @@ As I am based in Germany, I might take care of the regulations that apply here. 
 For a long time, I wanted to have a small photovoltaic system to reduce energy costs and produce a portion of my household electricity on my own. There have been and are a lot of regulations in Germany. Thus, there is a European law that should permit the installation of small solar panels and microinverters there are still a lot of more or less useful regulations. A table is a way of having a hassle-free "balcony power station". So at some point, my local public utilities company changed their laws and switched my electricity meter to a bidirectional one. I have still not heard anything by the landlord, but as a permit for a table is not required, I was able to start the project.
 
 ## Build process
-So, at some day, I was finally able to pick up the modules at a local Solar Systems builder. I chose the panel "ASWS Strong Style 390-MH120-N 390 Watt" and had a look in the [datasheet](https://shop.erene.de/media/14/16/0c/1679044263/datenblatt-ASWS-390-MH120N-BG-deutsch.pdf) for the dimensions. At first, I wanted to build that table utilizing wood, but for some reason I thought black aluminum profiles are more durable.
+At some day, I was finally able to pick up the modules at a local Solar Systems builder. At first, I wanted to build that frame utilizing wood, but for some reason I thought black aluminum profiles are more durable.
+
+### Assembly
+I chose the panel "ASWS Strong Style 390-MH120-N 390 Watt" and had a look in the [datasheet](https://shop.erene.de/media/14/16/0c/1679044263/datenblatt-ASWS-390-MH120N-BG-deutsch.pdf) for the dimensions.
 So I wrote down the numbers and calculated how many aluminum bars were required.
 I came down to this Bill of materials (Prices as of March 2023) at the shop "myaluprofil":
 
@@ -50,7 +53,15 @@ So as mentioned, i wanted to get rid of the connectors that came with the invert
 - Green/Yellow means Earth/Protective wire. (As it should be all around the world)
 - Red means "Hot" or "Live wire", so thats where the "240 V AC" should be applied.
 - Black means neutral, same potential as "Earth" but thats the return for a load or generator in our case.
-I also suggest so add ferrules to the end of those wires, like I already did in that pictures. Typically those wires were solderes together with a small amount of tin/lead.
+
+I also suggest so add ferrules to the end of those wires, like I already did in that pictures. Typically those wires were soldered together with a small amount of tin/lead.
+So at first, i will provide you this close-up of the crowded junction box I made and will explain whats going on here.
+![SolarTable-6](https://user-images.githubusercontent.com/8407566/233868076-9502e440-a460-40cd-b1fa-b916dd87ef23.jpg)
+The big unit labeled by the company "Schneider Electric" is our combined RCD/Breaker. It's rated to 6 Ampere for the CB specs and 30mA for the RCD specs. Talking about the CB: 6 Amps is less than the outlets and connectors are rated to. (Approximately 230V*6A=1380VA/W / not too accurate as we are dealing with alternating current), in any case, this breaker should trip before the "normal" ones we can typically found in our houses will do. (The outlets and breakers are typically rated to 16 Amps/~3.680 Watts)
+Another thing about having a second RCD in series: Not all households have RCDs installed, yet they have to at a certain point. So in case there is a "leak" of current from the live wire, the RCD will detect it and trip (it will also shut down the circuit breaker)
+I used two outlets from Neutrik, the Powercon True1 TOP series, one is the input, and the other one is the output.
+The input is connected to the RCD/CB and the output is connected to the Powercon Outlet on the other side, to our inverter etc.
+The earth wire is always connected between input, output and any other metal part, like the DIN-Rail. It should not be interupted.
 
 **I will add a part list from Reichelt later on.**
 
@@ -71,7 +82,7 @@ Cables and electronics like RCD/Circuit Breaker|[reichelt.de](https://www.reiche
 
 \** I purchased a used module on "[eBay Kleinanzeigen](https://www.ebay-kleinanzeigen.de)" / classifieds for around **€115**
  
-\*** There might be other vendors of aluminum profiles, thus I don't want to cut them on my own. The advantage of a shop like "[myaluprofil.de](https://www.myaluprofil.de)" is that they offer accessories for the aluminum profiles as well. A detailed BoM can be found in the build-section.
+\*** There might be other vendors of aluminum profiles, thus I don't want to cut them on my own. The advantage of a shop like "[myaluprofil.de](https://www.myaluprofil.de)" is that they offer accessories for the aluminum profiles as well. [A detailed BoM can be found in assembly-section](#assembly)
 
 \**** The amount you want to spend here is depending on the functionalities your table should have.
 Mine is utilizing a combined circuit breaker and RCD. Shops like "[reichelt.de](https://www.reichelt.de)" should cover your needs. (I also added waterproof connectors, but I explained that in the [section about the electrical installation](#electrical-installation))
