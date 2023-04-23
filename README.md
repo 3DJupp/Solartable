@@ -11,7 +11,6 @@ So, at some day i was finally able to pick up the modules at a local Solar Syste
 So i wrote down the numbers and calculated how many aluminium bars were required.
 I came down to this Bill of materials (Prices as of March 2023) at the shop "myaluprofil":
 
-
 |Count|Article|Article-Nr.|Price per unit|Total|Length|
 |-----|---------------------------------------------------|----------------|--------------|-------|-------|
 |8 x|Winkelsatz 30x30 schwarz Nut 6 I-Typ|H206WS30S 3,20 EUR|25,60 EUR||
@@ -24,6 +23,12 @@ I came down to this Bill of materials (Prices as of March 2023) at the shop "mya
 |1 x|Aluminiumprofil 30x60 Nut 6 I-Typ Schwarz|H1066030LSCH|30,06 EUR|30,06 EUR|**1400 mm**|
 
 **Edit:** turns out i made a small mistake and the supporting bars (H1063030L2N90SCH)  were a bit too long, so i would suggest to order it in a length of 975 millimeters instead. (not too bad, but worth mentioning)
+
+The legs will be attached using a large angle (30 by 60 mm/H206WS60) on the two crossbars and on the panel (the frame itself) using two smaller (30 by 30 mm/H206WS30S) angles, which are in black the same color as the frame. The crossbars will be attached on the large 30x60 aluminium rod using two of the grey angles (30 by 30mm/H206WS30). For stability reasons you could also use the large angles (H206WS60), but that depends on your budget.
+
+I mounted the frame ifself, placed the solarpanel facing upside down, mounted the small angles on the legs. Finally i was able to mark the spots where i will drill some holes. I turnes the Frame to mount the Inverter, whic I mounted using two sliding blocks,washers and M6 Screws on the 30x60mm aluminium profile. Then i could drill the holes. Please use a spare wood part or anything else, as you should not hit the panel/glass surface usinga drillbit.
+
+I mounted the Microinverter HM400 using two sliding blocks,washers and M6 Screws on the 30x60mm aluminium profile.
 
 ## Partlist / BoM
 I used several parts to build this table. In this project i will utilize aluminium extrusion profiles, which were also widely known in industry usages (CNC, Robotics, 3D-Printers or any other manufacturing process)
