@@ -36,11 +36,23 @@ After that I rotated the frame for mounting the inverter, which was mounted usin
 ### Electrical installation
 
 As we are dealing with a solar panel, that's meant to produce electricity we want to be able to make use of.
-**I would suggest to work with electricity only if you are familiar with it. No matter if it's AC, DC - 30 or 240 Volts. Otherwise please consult an electrician.**
-As i was not happy with the connectors and safety measurements that comes with some microinverters, I built the unit as follows.:
-I found some connectors that are certified to be waterproof and also hot-plug-capable.
-Normally those kind of connectors are widely known in event technology, but why shouldn't i use them in my project? Thanks to [Neutrik](https://www.neutrik.com) for their great piece of engineering.
-Secondly I wanted to have a dedicated RCD and circuit breaker. This i meant to reduce the risk of overloads (breaker) and electrocution (RCD, or "Residual Current Device", in Germany also known as "FI") the combination of RCD and circuit breaker is known as "FI/LS" in Germany)
+**I would suggest to work with electricity only if you are familiar with it. No matter if it's AC, DC - 30 or 240 Volts. Otherwise, please consult an electrician.**
+
+As I was not happy with the connectors and safety measurements that come with some microinverters, I built the unit as follows.:
+- I found some connectors that are certified to be waterproof and also hot-plug-capable.
+  Normally, these kinds of connectors are widely known in event technology, but why shouldn't I use them in my project? Thanks to [Neutrik](https://www.neutrik.com) for their great piece of engineering.
+- Secondly, I wanted to have a dedicated RCD and circuit breaker. This is meant to reduce the risk of overloads (breaker) and electrocution (RCD, or "Residual Current   Device", in Germany also known as "FI"). The combination of RCD and circuit breaker is known as "FI/LS" in Germany.
+
+When working with proper tools, the installation of solar panels or electric components in general is easier and more reliable.
+Personally i use tools from [Knipex](https://www.knipex.com) like this special plier for solar or thicker outdoor-cables:
+![SolarTable-4](https://user-images.githubusercontent.com/8407566/233867078-e29ea0e3-dcef-42c3-b98c-d19d2915f5b4.jpg)
+So as mentioned, i wanted to get rid of the connectors that came with the inverter I got from "Hoymiles", after unscrewing the connector, i was able to see three wires. Red, Black and Green/Yellow. ![SolarTable-5](https://user-images.githubusercontent.com/8407566/233867175-01b903f1-f752-464b-bcce-7af2eb055465.jpg)
+- Green/Yellow means Earth/Protective wire. (As it should be all around the world)
+- Red means "Hot" or "Live wire", so thats where the "240 V AC" should be applied.
+- Black means neutral, same potential as "Earth" but thats the return for a load or generator in our case.
+I also suggest so add ferrules to the end of those wires, like I already did in that pictures. Typically those wires were solderes together with a small amount of tin/lead.
+
+**I will add a part list from Reichelt later on.**
 
 ## Part list / BoM
 I used several parts to build this table. In this project I will utilize aluminum extrusion profiles, which were also widely known in industry usages (CNC, Robotics, 3D-Printers or any other manufacturing process)
@@ -50,10 +62,10 @@ I do not get any kind of bonus by mentioning a certain shop. [In case you think 
 
 |Part|Further information or shop|Price in Euro (€)|
 |----|---------------------------|-----------------|
-|Solar Panel|[ASWS strong style](https://www.asws-solar.de/solarmodule/strong-style)|150-€250*|
+|Solar Panel|[ASWS strong style](https://www.asws-solar.de/solarmodule/strong-style)|€150-€250*|
 |Hoymiles Microinverter|[HM 400 Specs](https://www.hoymiles.com/product/microinverter/hm-300-350-400-eu)|€120**|
 |Aluminum profiles and accessories|[myaluprofil.de](https://www.myaluprofil.de/Aluminiumprofile)|€200***|
-Cables and electronics like RCD/Circuit Breaker|[reichelt.de](https://www.reichelt.de/)|€10-150€****|
+Cables and electronics like RCD/Circuit Breaker|[reichelt.de](https://www.reichelt.de/)|€10-€150****|
 
 \* I used this module: <ins>ASWS Strong Style 390-MH120-N 390 Watt</ins>, at the time of purchase, I paid around **€250** including VAT (19%) in Germany. There is no need to use a bifacial module, you can definitely go for a cheaper one instead. I think this is more beautiful.
 
@@ -62,8 +74,7 @@ Cables and electronics like RCD/Circuit Breaker|[reichelt.de](https://www.reiche
 \*** There might be other vendors of aluminum profiles, thus I don't want to cut them on my own. The advantage of a shop like "[myaluprofil.de](https://www.myaluprofil.de)" is that they offer accessories for the aluminum profiles as well. A detailed BoM can be found in the build-section.
 
 \**** The amount you want to spend here is depending on the functionalities your table should have.
-
-Mine is utilzing a combined circuit breaker and RCD. Shops like "[reichelt.de](https://www.reichelt.de)" should cover your needs. (In my case i also added special waterproof connectors, but i will explain that in a section about the electrical installation)
+Mine is utilizing a combined circuit breaker and RCD. Shops like "[reichelt.de](https://www.reichelt.de)" should cover your needs. (I also added waterproof connectors, but I explained that in the [section about the electrical installation](#electrical-installation))
 
 ### Sources and inspiration from other projects
 
