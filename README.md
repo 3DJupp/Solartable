@@ -1,9 +1,7 @@
-
-
 # Solartable
 Project that will utilize a solar panel and some aluminum profiles as an outdoor / garden table
 ![SolarTable-1](https://user-images.githubusercontent.com/8407566/233850090-255ac83c-c0e9-4d08-bece-515f9f898cc9.jpg)
-
+As I am based in Germany, I might take care of the regulations that apply here. (more in the preface)
 
 ## Preface
 For a long time, I wanted to have a small photovoltaic system to reduce energy costs and produce a portion of my household electricity on my own. There have been and are a lot of regulations in Germany. Thus, there is a European law that should permit the installation of small solar panels and microinverters there are still a lot of more or less useful regulations. A table is a way of having a hassle-free "balcony power station". So at some point, my local public utilities company changed their laws and switched my electricity meter to a bidirectional one. I have still not heard anything by the landlord, but as a permit for a table is not required, I was able to start the project.
@@ -35,6 +33,15 @@ The frame is placed on top of the solar panel, placed upside-down on a blanket.
 After that I rotated the frame for mounting the inverter, which was mounted using two sliding blocks, washers and M6 screws on the large 30x60mm profile.
 ![SolarTable-3](https://user-images.githubusercontent.com/8407566/233850353-11011db4-9abf-4294-8065-587846ed7408.jpg)
 
+### Electrical installation
+
+As we are dealing with a solar panel, that's meant to produce electricity we want to be able to make use of.
+**I would suggest to work with electricity only if you are familiar with it. No matter if it's AC, DC - 30 or 240 Volts. Otherwise please consult an electrician.**
+As i was not happy with the connectors and safety measurements that comes with some microinverters, I built the unit as follows.:
+I found some connectors that are certified to be waterproof and also hot-plug-capable.
+Normally those kind of connectors are widely known in event technology, but why shouldn't i use them in my project? Thanks to [Neutrik](https://www.neutrik.com) for their great piece of engineering.
+Secondly I wanted to have a dedicated RCD and circuit breaker. This i meant to reduce the risk of overloads (breaker) and electrocution (RCD, or "Residual Current Device", in Germany also known as "FI") the combination of RCD and circuit breaker is known as "FI/LS" in Germany)
+
 ## Part list / BoM
 I used several parts to build this table. In this project I will utilize aluminum extrusion profiles, which were also widely known in industry usages (CNC, Robotics, 3D-Printers or any other manufacturing process)
 This is the part list, including a shop or datasheet for reference. In some cases, I used spare/used parts, so I will link the manufacturer page instead.
@@ -43,12 +50,12 @@ I do not get any kind of bonus by mentioning a certain shop. [In case you think 
 
 |Part|Further information or shop|Price in Euro (€)|
 |----|---------------------------|-----------------|
-|Solar Panel|[ASWS strong style](https://www.asws-solar.de/solarmodule/strong-style)            |150-€250*|
+|Solar Panel|[ASWS strong style](https://www.asws-solar.de/solarmodule/strong-style)|150-€250*|
 |Hoymiles Microinverter|[HM 400 Specs](https://www.hoymiles.com/product/microinverter/hm-300-350-400-eu)|€120**|
 |Aluminum profiles and accessories|[myaluprofil.de](https://www.myaluprofil.de/Aluminiumprofile)|€200***|
 Cables and electronics like RCD/Circuit Breaker|[reichelt.de](https://www.reichelt.de/)|€10-150€****|
 
-\* I used this module:  <ins>ASWS Strong Style 390-MH120-N 390 Watt</ins>, at the time of purchase, I paid around **€250** including VAT (19%) in Germany. There is no need to use a bifacial module, you can definitely go for a cheaper one instead. I think this is more beautiful.
+\* I used this module: <ins>ASWS Strong Style 390-MH120-N 390 Watt</ins>, at the time of purchase, I paid around **€250** including VAT (19%) in Germany. There is no need to use a bifacial module, you can definitely go for a cheaper one instead. I think this is more beautiful.
 
 \** I purchased a used module on "[eBay Kleinanzeigen](https://www.ebay-kleinanzeigen.de)" / classifieds for around **€115**
  
@@ -61,9 +68,9 @@ Mine is utilzing a combined circuit breaker and RCD. Shops like "[reichelt.de](h
 ### Sources and inspiration from other projects
 
  - Firstly, thanks to the make-magazine and further resources.
-     - [This is the article (paid) from Make    4/2022](https://www.heise.de/select/make/2022/4/2215210171328615510)
+     - [This is the article (paid) from Make 4/2022](https://www.heise.de/select/make/2022/4/2215210171328615510)
  - [solartisch.de / a collection of resources for solar tables](http://solartisch.de)
  - Fablab with the wooden Table:
-    - [Hackster.io. article](https://www.hackster.io/fablabeu/solartisch-91a1d8)    
+    - [Hackster.io. article](https://www.hackster.io/fablabeu/solartisch-91a1d8)
     - [TinkerCad / Resources for a wooden table](https://www.tinkercad.com/things/hHsPlie2SS3-solartisch)
  - [solartisch.com and other commercial projects](https://solartisch.com)
