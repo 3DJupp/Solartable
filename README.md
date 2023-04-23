@@ -47,9 +47,8 @@ I do not get any kind of bonus, in some cases I used spare or used parts, so I w
 ### Sources and inspiration from other projects
  - First of all, thanks to the make-magazine and further ressources.
     - [This is the article (paid) from Make    4/2022](https://www.heise.de/select/make/2022/4/2215210171328615510)
-    - [solartisch.de](solartisch.de)
-    - [solartisch.com](solartisch.com)
+ - [solartisch.de / a collection of ressources for solar tables](http://solartisch.de)
  - Fablab with the wooden Table:
-    - [Hackster.io. article](    https://www.hackster.io/fablabeu/solartisch-91a1d8)
-    - [TinkerCad / Ressources for a wooden
-   table](https://www.tinkercad.com/things/hHsPlie2SS3-solartisch)
+    - [Hackster.io. article](https://www.hackster.io/fablabeu/solartisch-91a1d8)
+    - [TinkerCad / Ressources for a wooden table](https://www.tinkercad.com/things/hHsPlie2SS3-solartisch)
+ - [solartisch.com and other commercial projects](https://solartisch.com)
