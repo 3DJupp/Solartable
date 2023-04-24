@@ -63,7 +63,17 @@ I used two outlets from Neutrik, the Powercon True1 TOP series, one is the input
 The input is connected to the RCD/CB and the output is connected to the Powercon Outlet on the other side, to our inverter etc.
 The earth wire is always connected between input, output and any other metal part, like the DIN-Rail. It should not be interupted.
 
-**I will add a part list from Reichelt later on.**
+**I will add a part list from Reichelt here:**
+|Count|Article|Article-Nr.|Price per unit|Total|Comment|
+|-----|---------------------------------------------------|----------------|--------------|-------|-------|
+|1 x|Verteilerkasten Feuchtraum, 1-reihig, 4 Module|DB-F 1-4 TR|28,20 EUR|28,20 EUR|Junction-Box|
+|1 x|powerCON TRUE1 TOP Gerätestecker, Inlet|PCON MPX-TOP|3,90 EUR|3,90 EUR|Power In (Connect the table to your household electricity/Plug|
+|1 x|powerCON TRUE1 TOP Geräteeinbaubuchse, Outlet|PCON FPX-ST-TOP|11,20 EUR|11,20 EUR|Power Out (for other appliances connected to the Table, like an additional outlet|
+|1 x|Betteri BC01, Buchse (female), AC 3-polig, IP67|BETTERI BC01F|12,99 EUR|12,99 EUR|If you prefer the Betteri-connector instead of Neutrik|
+|1 x|Betteri BC01, Endkappe (für female), AC 3-polig, IP67|BETTERI BC01FK|7,99 EUR|7,99 EUR|If needed, cap for the inverter output|
+|1 x|FI/LS-Schalter Resi9 1P+N, 6A, B-Char., 30mA, Typ A, 6kA|R9D01606|61,95 EUR|61,95 EUR|RCD/CB|
+
+Other connectors might be possible, but i won't add them to the BoM, i also not added ferrules, wires, crimp connectors etc. to not overcomplicate things.
 
 ## Part list / BoM
 I used several parts to build this table. In this project I will utilize aluminum extrusion profiles, which were also widely known in industry usages (CNC, Robotics, 3D-Printers or any other manufacturing process)
