@@ -67,13 +67,21 @@ The earth wire is always connected between input, output and any other metal par
 |Count|Article|Article-Nr.|Price per unit|Total|Comment|
 |-----|---------------------------------------------------|----------------|--------------|-------|-------|
 |1 x|Verteilerkasten Feuchtraum, 1-reihig, 4 Module|DB-F 1-4 TR|28,20 EUR|28,20 EUR|Junction-Box|
-|1 x|powerCON TRUE1 TOP Gerätestecker, Inlet|PCON MPX-TOP|3,90 EUR|3,90 EUR|Power In (Connect the table to your household electricity/Plug|
-|1 x|powerCON TRUE1 TOP Geräteeinbaubuchse, Outlet|PCON FPX-ST-TOP|11,20 EUR|11,20 EUR|Power Out (for other appliances connected to the Table, like an additional outlet|
+|1 x|powerCON TRUE1 TOP Gerätestecker, Inlet|PCON MPX-TOP|3,90 EUR|3,90 EUR|Power In (Socket)|
+|1 x|powerCON TRUE1 TOP Kabelbuchse, Outlet|PCON FX-W-TOP|9,05 EUR|9,05 EUR|Power Out (Plug to connect to MPX-TOP)|
+|1 x|powerCON TRUE1 TOP Geräteeinbaubuchse, Outlet|PCON FPX-TOP|6,99 EUR|6,99 EUR|Power Out (Socket, optional)|
+|1 x|powerCON TRUE1 TOP Kabelbuchse|PCON MX-W-TOP|8,99 EUR|8,99 EUR|Power In (Plug to connect to FPX-TOP)|
 |1 x|Betteri BC01, Buchse (female), AC 3-polig, IP67|BETTERI BC01F|12,99 EUR|12,99 EUR|If you prefer the Betteri-connector instead of Neutrik|
 |1 x|Betteri BC01, Endkappe (für female), AC 3-polig, IP67|BETTERI BC01FK|7,99 EUR|7,99 EUR|If needed, cap for the inverter output|
 |1 x|FI/LS-Schalter Resi9 1P+N, 6A, B-Char., 30mA, Typ A, 6kA|R9D01606|61,95 EUR|61,95 EUR|RCD/CB|
 
 Other connectors might be possible, but i won't add them to the BoM, i also not added ferrules, wires, crimp connectors etc. to not overcomplicate things.
+For the DIN-Rail connectors I used the [PTFIX Series/Phoenix Contact](https://www.reichelt.de/verteilerblock-ptfix-12x2-5-blau-ptfix-12x2-5-bu-p262114.html) and [WPE 4/Weidmüller](https://catalog.weidmueller.com/catalog/Start.do?&ObjectID=1010100000) for the PE-Connector. The Betteri Cap and Connector is only needed, when keeping at least one Betteri Plug connected to the Inverter. (I removed ine female/inlet and connected it directly using the PTFIX, as they are 4mm² wires)
+
+When the junction box is wired properly, you can close it (those screws were a bit annoying) and ad a cover, if there is space left:
+![PXL_20230501_180927375](https://user-images.githubusercontent.com/8407566/235510978-417d062b-ef50-405b-aeb5-d934f15c9b09.jpg)
+
+
 
 ## Part list / BoM
 I used several parts to build this table. In this project I will utilize aluminum extrusion profiles, which were also widely known in industry usages (CNC, Robotics, 3D-Printers or any other manufacturing process)
