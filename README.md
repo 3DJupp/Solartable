@@ -12,22 +12,19 @@ At some day, I was finally able to pick up the modules at a local Solar Systems 
 ### Assembly
 I chose the panel "ASWS Strong Style 390-MH120-N 390 Watt" and had a look in the [datasheet](https://shop.erene.de/media/14/16/0c/1679044263/datenblatt-ASWS-390-MH120N-BG-deutsch.pdf) for the dimensions.
 So I wrote down the numbers and calculated how many aluminum bars were required.
-I came down to this Bill of materials (Prices as of March 2023) at the shop "myaluprofil". Prices increased (2024), so you might go for other shops.
+I came down to this Bill of materials. I used to order at the shop "myaluprofil" - but they are too expensive nowadays please search for the 3030 profiles, you'll find tons of shops
 
 |Count|Article|Article-Nr.|Price per unit|Total|Length|
 |-----|---------------------------------------------------|----------------|--------------|-------|-------|
-|8 x|Winkelsatz 30x30 schwarz Nut 6 I-Typ|H206WS30S|3,20 EUR|25,60 EUR||
-|4 x|Kreuz-Kabelbinderblock Nut 6 I-Raster PA|H206KKBPA|0,95 EUR|3,80 EUR||
-|8 x|Winkelsatz 30x60 ZN Nut 6 I-Typ|H206WS60|5,80 EUR|46,40 EUR||
-|~~4 x~~|~~Winkelsatz 30x30 ZN Nut 6 I-Typ~~|~~H206WS30~~|~~3,30 EUR~~|~~13,20 EUR~~|replaced by larger ones|
-|4 x|Nutenstein mit Steg Nut 6 I-Typ M6|H206NSMS6|0,35 EUR|1,40 EUR||
-|4 x|Aluminiumprofil 30x30 Nut 6 I-Typ Leicht 1N Schwarz|H1063030L1NSCH|12,25 EUR|49,00 EUR|**700 mm**|
-|2 x|Aluminiumprofil 30x30 Nut 6 I-Typ Leicht 2N90 Schwarz|H1063030L2N90SCH|16,40 EUR|32,80 EUR|**~~978~~ 975 mm**|
-|1 x|Aluminiumprofil 30x60 Nut 6 I-Typ Schwarz|H1066030LSCH|30,06 EUR|30,06 EUR|**1400 mm**|
+|8 x|Winkelsatz 30x30 schwarz Nut 6 I-Typ|xxx|3,20 EUR|25,60 EUR||
+|4 x|Kreuz-Kabelbinderblock Nut 6 I-Raster PA|xxx|0,95 EUR|3,80 EUR||
+|8 x|Winkelsatz 30x60 ZN Nut 6 I-Typ|xxx|5,80 EUR|46,40 EUR||
+|4 x|Nutenstein mit Steg Nut 6 I-Typ M6|xxx|0,35 EUR|1,40 EUR||
+|4 x|Aluminiumprofil 30x30 Nut 6 I-Typ Leicht 1N Schwarz|xxx|12,25 EUR|49,00 EUR|**700 mm**|
+|2 x|Aluminiumprofil 30x30 Nut 6 I-Typ Leicht 2N90 Schwarz|xxx|16,40 EUR|32,80 EUR|**975 mm**|
+|1 x|Aluminiumprofil 30x60 Nut 6 I-Typ Schwarz|xxx|30,06 EUR|30,06 EUR|**1400 mm**|
 
-**Edit:** turns out I made a small mistake and the supporting bars (H1063030L2N90SCH)  were a bit too long, so I would suggest ordering it in a length of 975 millimeters instead. (not too bad, but worth mentioning)
-
-The legs will be attached using a large angle (30 by 60 mm/H206WS60) on the two crossbars and on the panel (the frame itself) using two smaller (30 by 30 mm/H206WS30S) angles, which are in black the same color as the frame. The crossbars will be attached on the large 30x60 aluminum rod using two of the gray angles (30 by 30 mm/H206WS30). For stability reasons, you could also use the large angles (H206WS60), but that depends on your budget.
+The legs will be attached using a large angle (30 by 60 mm) on the two crossbars and on the panel (the frame itself) using two smaller (30 by 30 mm) angles, which are in black the same color as the frame. The crossbars will be attached on the large 30x60 aluminum rod using two of the gray angles. For stability reasons, you could also use the large angles (30 by 60 mm), but that depends on your budget.
 
 I mounted the frame itself, placed the solar panel facing upside down, mounted the small angles on the legs. Finally, I was able to mark the spots where I will drill some holes. Please use a spare wood part or anything else, as you should not hit the panel/glass surface with the drill bit.
 ![SolarTable-2](https://user-images.githubusercontent.com/8407566/233850363-1c598d4a-3f2b-4b11-a18a-b6c80714d090.jpg)
@@ -93,14 +90,14 @@ I do not get any kind of bonus by mentioning a certain shop. [In case you think 
 |----|---------------------------|-----------------|
 |Solar Panel|[ASWS strong style](https://www.asws-solar.de/solarmodule/strong-style)|€80-€150*|
 |Hoymiles Microinverter|[HM 400 Specs](https://www.hoymiles.com/product/microinverter/hm-300-350-400-eu)|€120**|
-|Aluminum profiles and accessories|[myaluprofil.de](https://www.myaluprofil.de/Aluminiumprofile)|€200***|
+|Aluminum profiles and accessories|any hardware-store for aluminum profiles|€100-200***|
 Cables and electronics like RCD/Circuit Breaker|[reichelt.de](https://www.reichelt.de/)|€10-€150****|
 
 \* I used this module: <ins>ASWS Strong Style 390-MH120-N 390 Watt</ins>, at the time of purchase, I paid around **€250** including VAT (19%) in Germany. There is no need to use a bifacial module, you can definitely go for a cheaper one instead. I think this is more beautiful.
 
 \** I purchased a used module on "[Kleinanzeigen.de](https://kleinanzeigen.de)" / classifieds for around **€115**
  
-\*** There might be other vendors of aluminum profiles, thus I don't want to cut them on my own. The advantage of a shop like "[myaluprofil.de](https://www.myaluprofil.de)" is that they offer accessories for the aluminum profiles as well. [A detailed BoM can be found in assembly-section](#assembly)
+\*** There might be different vendors of aluminum profiles, thus I don't want to cut them on my own. Unfortunately i can not recommend a certain shop anymore. The one i used before did increse pricing while decreasing service and lead times.
 
 \**** The amount you want to spend here is depending on the functionalities your table should have.
 Mine is utilizing a combined circuit breaker and RCD. Shops like "[reichelt.de](https://www.reichelt.de)" should cover your needs. (I also added waterproof connectors, but I explained that in the [section about the electrical installation](#electrical-installation))
